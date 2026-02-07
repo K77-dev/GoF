@@ -1,4 +1,4 @@
-package factorymethod.database;
+package _01_factory_method.database;
 
 public class Mysql implements IDatabase {
 

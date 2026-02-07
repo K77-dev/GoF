@@ -1,7 +1,7 @@
-package factorymethod.transport;
+package _01_factory_method.transport;
 
-import factorymethod.database.IDatabase;
-import factorymethod.database.Mysql;
+import _01_factory_method.database.IDatabase;
+import _01_factory_method.database.Mysql;
 
 public class MysqlTransport extends Transport{
     @Override

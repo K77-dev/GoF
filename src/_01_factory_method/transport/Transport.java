@@ -1,6 +1,6 @@
-package factorymethod.transport;
+package _01_factory_method.transport;
 
-import factorymethod.database.IDatabase;
+import _01_factory_method.database.IDatabase;
 
 public abstract class Transport {
 

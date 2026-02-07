@@ -1,9 +1,9 @@
-package factorymethod;
+package _01_factory_method;
 
-import factorymethod.transport.MongoDBTransport;
-import factorymethod.transport.MysqlTransport;
-import factorymethod.transport.PostgresTransport;
-import factorymethod.transport.Transport;
+import _01_factory_method.transport.MongoDBTransport;
+import _01_factory_method.transport.MysqlTransport;
+import _01_factory_method.transport.PostgresTransport;
+import _01_factory_method.transport.Transport;
 
 public class App {
 

@@ -1,7 +1,7 @@
-package factorymethod.transport;
+package _01_factory_method.transport;
 
-import factorymethod.database.IDatabase;
-import factorymethod.database.MongoDB;
+import _01_factory_method.database.IDatabase;
+import _01_factory_method.database.MongoDB;
 
 public class MongoDBTransport extends Transport {
 
