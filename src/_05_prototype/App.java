@@ -13,5 +13,18 @@ public class App {
         circle2.draw();
         
         System.out.println("\nObjetos diferentes? " + (circle1 != circle2));
+
+        System.out.println("\n======");
+
+        Rectangle rect1 = new Rectangle("azul", 30, 40, 10, 20);
+        rect1.draw();
+
+        // Clonar retângulo
+        Rectangle rect2 = (Rectangle) rect1.clone();
+        rect2.y = 60;
+        rect2.draw();   
+
+        System.out.println("\nObjetos diferentes? " + (rect1 != rect2));
+
     }
 }
